@@ -22,7 +22,7 @@ namespace Github_example1
             string year, month, day, underbar;
             year = "1999";
             month = "12";
-            day = "27";
+            day = "31";
             underbar = "_";
 
             textBox_birth.Text = year +underbar+ month + underbar +day;
