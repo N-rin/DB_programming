@@ -35,38 +35,41 @@
             // 
             // textBox_birth
             // 
-            this.textBox_birth.Location = new System.Drawing.Point(44, 101);
+            this.textBox_birth.Location = new System.Drawing.Point(55, 121);
+            this.textBox_birth.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox_birth.Name = "textBox_birth";
-            this.textBox_birth.Size = new System.Drawing.Size(143, 25);
+            this.textBox_birth.Size = new System.Drawing.Size(178, 28);
             this.textBox_birth.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(78, 64);
+            this.label1.Location = new System.Drawing.Point(98, 77);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(67, 15);
+            this.label1.Size = new System.Drawing.Size(80, 18);
             this.label1.TabIndex = 3;
-            this.label1.Text = "생년월일";
+            this.label1.Text = "이름입력";
             // 
             // button_push
             // 
-            this.button_push.Location = new System.Drawing.Point(71, 146);
+            this.button_push.Location = new System.Drawing.Point(89, 175);
+            this.button_push.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button_push.Name = "button_push";
-            this.button_push.Size = new System.Drawing.Size(75, 23);
+            this.button_push.Size = new System.Drawing.Size(94, 28);
             this.button_push.TabIndex = 4;
-            this.button_push.Text = "push";
+            this.button_push.Text = "입력";
             this.button_push.UseVisualStyleBackColor = true;
-            this.button_push.Click += new System.EventHandler(this.button_push_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(228, 181);
+            this.ClientSize = new System.Drawing.Size(702, 429);
             this.Controls.Add(this.button_push);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox_birth);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
