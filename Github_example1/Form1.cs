@@ -16,5 +16,16 @@ namespace Github_example1
         {
             InitializeComponent();
         }
+
+        private void button_push_Click(object sender, EventArgs e)
+        {
+            string year, month, day, underbar;
+            year = "1999";
+            month = "12";
+            day = "27";
+            underbar = "_";
+
+            textBox_birth.Text = year +underbar+ month + underbar +day;
+        }
     }
 }
